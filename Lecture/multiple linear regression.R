@@ -24,7 +24,7 @@ print(round(result, digits = 2))
 mape <- mean(abs((data.test$mpg - result)/ data.test$mpg )*100)
 paste("The error - MAPE is: ", round(mape,digit=2),"%")
 
-#2
+#2 Class Activity
 # Creating the dataset from the image
 df <- data.frame(
   Ozone = c(11, 11, 11, 12, 12, 13, 13, 13, 13, 14),
@@ -47,3 +47,4 @@ predictions <- predict(model, test_data)
 comparison <- data.frame(Actual = test_data$Ozone, Predicted = predictions)
 print(comparison)
 print(comparison)
+
